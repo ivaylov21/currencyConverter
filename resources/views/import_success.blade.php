@@ -47,7 +47,9 @@
             </tbody>
         </table>
         @else
-            No data
+            <div class="row" style="width: 100%">
+                <div style="width: 50%; margin: auto">No data</div>
+            </div>
         @endif
     </div>
 </div>
